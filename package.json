@@ -1,0 +1,29 @@
+{
+  "name": "sever-development",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anuraag93/First-Server-Development.git"
+  },
+  "author": "Anurag Banger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anuraag93/First-Server-Development/issues"
+  },
+  "homepage": "https://github.com/Anuraag93/First-Server-Development#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.7",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
